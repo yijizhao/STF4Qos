@@ -1,0 +1,6 @@
+# Requires Python 3.12.2
+numpy==1.26.4
+torch==2.7.1
+scipy==1.11.4
+tqdm==4.67.1
+PyYAML==6.0.2

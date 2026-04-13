@@ -1,0 +1,74 @@
+#########################
+# memory-based methods  #
+#########################
+TUIPCC:
+  T: 64
+  k: 16
+  lambda: 0.1
+  mu: 0.60
+  top_k: 10
+
+TRCF:
+  theta_pcc: 0.5
+  theta_rbs: 0.68
+  alpha: 0.5
+  window_size: 64
+  density_threshold: 0.1
+  max_neighbors: 50
+########################
+# model-based methods  #
+########################
+
+WSPred:
+  eta: 0.001
+
+NTF:
+  rnn_len: 64
+  num_layers: 1
+  mlp_dims: [ 64, 32,32]
+  dropout: 0
+  step: 3
+  rnn: tkan
+
+
+
+RNCF:
+  gru_layers: 1
+  mlp_dims: [32,16]
+  dropout: 0.1
+  time_window: 3
+
+
+DeepTSQP:
+  time_window: 3
+  gru_layers: 1
+  dropout: 0.1
+
+
+SCATSF:
+  top_k: 8
+  time_window: 4
+  inner_batch: 4096
+
+CoSTCo:
+  lambda_reg: 0.001
+  num_channels: 20
+  rank: 20
+
+PLMF:
+  step: 3  
+
+GM:
+  k: 2
+  tao: 0.2
+  dropout: 0.00
+  mlp_dims: [32,32,16]
+  num_layers: 1
+  step: 3
+
+STF:
+  num_layers: 1
+  mlp_dims: [ 64, 32, 32 ]
+  dropout: 0  
+
+     
