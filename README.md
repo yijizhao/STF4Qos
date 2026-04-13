@@ -105,5 +105,4 @@ python main.py --dataset_path dataset/ws-time/wsdream/tpdata.txt --data_task TP 
 | SCATSF   | [J. Zhou , et al. Spatial Context-Aware Time-Series Forecasting for QoS Prediction, TNSM, 2023.](https://ieeexplore.ieee.org/document/10057199/)                                                                       |
 | GM       | [H. Wu et al. Effective Graph Modeling and Contrastive Learning for Time-Aware QoS Prediction, TSC, 2024.](https://ieeexplore.ieee.org/document/10713972)                                                            
 | TUIPCC   | [E. Tong, et al. A Missing QoS Prediction Approach via Time-Aware Collaborative Filtering, TSC, 2022.](https://ieeexplore.ieee.org/document/9511220)                                                                   |
-| TRCF     | [Z. Zheng, et al. TRCF: Temporal Reinforced Collaborative Filtering for Time-Aware QoS Prediction, TSC, 2024](https://ieeexplore.ieee.org/document/10314775)  
-                                                                           |
+| TRCF     | [Z. Zheng, et al. TRCF: Temporal Reinforced Collaborative Filtering for Time-Aware QoS Prediction, TSC, 2024](https://ieeexplore.ieee.org/document/10314775)  |
